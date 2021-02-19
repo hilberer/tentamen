@@ -1,9 +1,11 @@
 import React from 'react'
+import { Introduktion } from '../../components/Introduktion'
 
-export const Uppgift1 = () => {
+export const Uppgift1 = (props) => {
 	return (
 		<div>
 			<h1>Uppgift 1</h1>
+			<Introduktion name = 'Christopher' lastName = 'Hilberer' course = 'JavaScript fullstack V21-1'/>
 		</div>
 	)
 }
